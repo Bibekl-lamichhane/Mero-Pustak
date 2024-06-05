@@ -23,12 +23,12 @@ function Logout() {
   };
   return (
     <div>
-      <button
-        className="px-3 py-2 bg-red-500 text-white rounded-md cursor-pointer"
+      <span
+        className="px-3 py-2 bg-red-500 text-white border rounded-3xl cursor-pointer"
         onClick={handleLogout}
       >
         Logout
-      </button>
+      </span>
     </div>
   );
 }

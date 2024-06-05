@@ -21,20 +21,20 @@ function Course() {
       <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div className="mt-28 items-center justify-center text-center">
           <h1 className="text-2xl  md:text-4xl">
-            We're delighted to have you{" "}
-            <span className="text-orange-500"> Here! :)</span>
+            Courses: <span className="text-orange-500"> Are comming soon</span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-            assumenda? Repellendus, iste corrupti? Tempore laudantium
-            repellendus accusamus accusantium sed architecto odio, nisi expedita
-            quas quidem nesciunt debitis dolore non aspernatur praesentium
-            assumenda sint quibusdam, perspiciatis, explicabo sequi fugiat amet
-            animi eos aut. Nobis quisquam reiciendis sunt quis sed magnam
-            consequatur!
+            Welcome to our Courses! Dive into our expertly crafted courses
+            designed to enhance your knowledge and skills in various literary
+            fields. Each course is led by experienced instructors and includes
+            comprehensive materials, engaging modules, and practical
+            assessments. Whether you're a budding writer, an avid reader, or
+            looking to deepen your understanding of literature, our courses
+            offer something for everyone. Enroll today and embark on your
+            learning journey with us!
           </p>
           <Link to="/">
-            <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
+            <button className="mt-6 bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 duration-300">
               Back
             </button>
           </Link>
