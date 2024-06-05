@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 0,
+    "category": "Free",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 30,
+    "category": "Free",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 30,
+    "category": "Free",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 70,
+    "category": "Free",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 90,
+    "category": "Free",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 0,
+    "category": "Free",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 0,
+    "category": "Free",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 0,
+    "category": "Free",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Fairy",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 50,
+    "category": "Fiction",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 10,
+    "name": "kids for us",
+    "title": "lorem dssadw jsdas jdka jsdajda sjd sjdjad",
+    "price": 5,
+    "category": "Kids",
+    "image": "/1710298256.jpg"
+  },
+  {
+    "id": 11,
+    "name": " Sports to learn Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 10,
+    "category": "Sports",
+    "image": "/1710843899.jpg"
+  },
+  {
+    "id": 12,
+    "name": "ATomic Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 20,
+    "category": "Song",
+    "image": "/1710298557.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Story Book",
+    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 80,
+    "category": "Science",
+    "image": "/1710843899.jpg"
+  }
+]
