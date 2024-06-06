@@ -51,14 +51,16 @@ function Signup() {
                 ✕
               </Link>
 
-              <h3 className="font-bold text-lg">Signup</h3>
+              <h3 className="font-bold text-2xl text-gray-950 text-center">
+                Signup
+              </h3>
               <div className="mt-4 space-y-2">
                 <span className=" text-gray-950">Name</span>
                 <br />
                 <input
                   type="text"
                   placeholder="Enter your fullname"
-                  className="w-80 px-3 py-1 border rounded-md outline-none"
+                  className="w-80 px-3 py-1 border rounded-md outline-none  text-gray-950"
                   {...register("fullname", { required: true })}
                 />
                 <br />
@@ -75,7 +77,7 @@ function Signup() {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="w-80 px-3 py-1 border rounded-md outline-none"
+                  className="w-80 px-3 py-1 border rounded-md outline-none  text-gray-950"
                   {...register("email", { required: true })}
                 />
                 <br />
@@ -92,7 +94,7 @@ function Signup() {
                 <input
                   type="text"
                   placeholder="Enter your password"
-                  className="w-80 px-3 py-1 border rounded-md outline-none"
+                  className="w-80 px-3 py-1 border rounded-md outline-none  text-gray-950"
                   {...register("password", { required: true })}
                 />
                 <br />

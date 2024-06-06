@@ -16,7 +16,7 @@ function Banner() {
               vast collection of ebooks and find your next great read today
             </p>
           </div>
-          <button className="btn mt-6 bg-orange-500 hover:bg-orange-600 border rounded-3xl ml-1/2 md:ml-0">
+          <button className="btn mt-6 text-white bg-orange-500 hover:bg-orange-600 border rounded-3xl ml-1/2 md:ml-0">
             Learn More
           </button>
         </div>

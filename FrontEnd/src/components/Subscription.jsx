@@ -43,7 +43,7 @@ const Suscribtion = () => {
             className="grow"
             placeholder="Put Your Email"
           />{" "}
-          <button className="btn relative left-20 bg-orange-500 hover:bg-orange-600 border rounded-3xl ml-1/2 md:ml-0">
+          <button className="btn relative left-20 text-white bg-orange-500 hover:bg-orange-600 border rounded-3xl ml-1/2 md:ml-0">
             Subscribe
           </button>
         </label>
