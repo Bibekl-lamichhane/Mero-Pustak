@@ -1,106 +1,106 @@
 [
   {
     "id": 1,
-    "name": "Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 0,
-    "category": "Free",
-    "image": "/1710843899.jpg"
+    "name": "Atomic Habits",
+    "title": "Atomic Habits lorem text",
+    "price": 600,
+    "category": "Hot",
+    "image": "/1709358582.jpg"
   },
   {
     "id": 2,
-    "name": "Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "name": "Harry Potter",
+    "title": "Harry Potter lorem  jsd",
     "price": 30,
-    "category": "Free",
-    "image": "/1710843899.jpg"
+    "category": "Hot",
+    "image": "/1709384333.jpg"
   },
   {
     "id": 3,
-    "name": "Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 30,
-    "category": "Free",
-    "image": "/1710843899.jpg"
+    "name": "Rich Dad Poor Dad",
+    "title": " Rich lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "price": 199,
+    "category": "Sale",
+    "image": "/1709384558.jpg"
   },
   {
     "id": 4,
-    "name": "Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 70,
-    "category": "Free",
-    "image": "/1710843899.jpg"
+    "name": "Pshychology of Money",
+    "title": "lorem Pshychology shdasjd sjdjad",
+    "price": 750,
+    "category": "Normal",
+    "image": "/1709383896.jpg"
   },
   {
     "id": 5,
-    "name": "Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 90,
-    "category": "Free",
-    "image": "/1710843899.jpg"
+    "name": "The Indoctrainated Brain",
+    "title": "lorem  Indoctrainated  sjd sjdjad",
+    "price": 100,
+    "category": "Sale",
+    "image": "/1709385164.jpg"
   },
   {
     "id": 6,
-    "name": "Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 0,
-    "category": "Free",
-    "image": "/1710843899.jpg"
+    "name": "Mani's Search For Meaning",
+    "title": "lorem shdasjdjasd j sjd sjdjad",
+    "price": 890,
+    "category": "Normal",
+    "image": "/1709385331.jpg"
   },
   {
     "id": 7,
-    "name": "Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 0,
-    "category": "Free",
-    "image": "/1710843899.jpg"
+    "name": "The Art of Being Alone ",
+    "title": "lorem Modern shdasjdjasd  ",
+    "price": 550,
+    "category": "Hot",
+    "image": "/1709392884.jpg"
   },
   {
     "id": 8,
-    "name": "Book",
+    "name": "Middlesex",
     "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 0,
-    "category": "Free",
-    "image": "/1710843899.jpg"
+    "price": 199,
+    "category": "Sale",
+    "image": "/1709392446.jpg"
   },
   {
     "id": 9,
-    "name": "Fairy",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 50,
-    "category": "Fiction",
-    "image": "/1710843899.jpg"
+    "name": "Five Broken Blades",
+    "title": "lorem shdasjdjasd ssjd sjdjad",
+    "price": 560,
+    "category": "Moderate",
+    "image": "/1709393920.jpg"
   },
   {
     "id": 10,
-    "name": "kids for us",
-    "title": "lorem dssadw jsdas jdka jsdajda sjd sjdjad",
-    "price": 5,
-    "category": "Kids",
-    "image": "/1710298256.jpg"
+    "name": "Table for Two",
+    "title": "lorem dssadw jsdas  sjd sjdjad",
+    "price": 500,
+    "category": "Normal",
+    "image": "/1709394042.jpg"
   },
   {
     "id": 11,
-    "name": " Sports to learn Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 10,
-    "category": "Sports",
-    "image": "/1710843899.jpg"
+    "name": " Annie Bot",
+    "title": "lorem shdasjdjasd sdads  sdsss",
+    "price": 810,
+    "category": "Normal",
+    "image": "/1709394139.jpg"
   },
   {
     "id": 12,
-    "name": "ATomic Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 20,
-    "category": "Song",
-    "image": "/1710298557.jpg"
+    "name": "Murder Road",
+    "title": "lorem shdasjdv dajda sjd sjdjad",
+    "price": 220,
+    "category": "Sale",
+    "image": "/1709394260.jpg"
   },
   {
     "id": 13,
-    "name": "Story Book",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
-    "price": 80,
-    "category": "Science",
-    "image": "/1710843899.jpg"
+    "name": "Daughter Of Mine",
+    "title": "lorem shdasjdjasd",
+    "price": 880,
+    "category": "Normal",
+    "image": "/1709394394.jpg"
   }
 ]
