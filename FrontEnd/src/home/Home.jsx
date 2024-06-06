@@ -5,6 +5,7 @@ import Freebook from "../components/Freebook";
 import Footer from "../components/Footer";
 import Suscribtion from "../components/Subscription";
 import OurStory from "../components/OurStory";
+import BestDeal from "../components/BestDeal";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Suscribtion />
       <Freebook />
       <OurStory />
+      <BestDeal />
       <Footer />
     </>
   );
