@@ -39,28 +39,26 @@ function Login() {
   return (
     <div>
       <dialog id="my_modal_3" className="modal backdrop-blur-xl">
-        <div className="modal-box">
+        <div className="modal-box  dark:bg-slate-900 dark:text-white">
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
             {/* Button to  close the modal */}
             <Link
               to="/"
-              className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2  text-gray-600"
+              className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 "
               onClick={() => document.getElementById("my_modal_3").close()}
             >
               ✕
             </Link>
 
-            <h3 className="text-center font-bold text-xl text-gray-950">
-              Login
-            </h3>
+            <h3 className="text-center font-bold text-xl">Login</h3>
             {/* email */}
             <div className="mt-4 space-y-2">
-              <span className="ml-2  text-gray-950">Email</span>
+              <span className="ml-2 0">Email</span>
               <br />
               <input
                 type="email"
                 placeholder="Your Email"
-                className="w-80 px-3 py-2 border rounded-3xl outline-none"
+                className=" dark:bg-slate-900 dark:text-white w-80 px-3 py-2 border rounded-3xl outline-none"
                 {...register("email", { required: true })}
               />
               <br />
@@ -72,12 +70,12 @@ function Login() {
             </div>
             {/* password */}
             <div className="mt-4 space-y-2">
-              <span className="ml-2  text-gray-950">Password</span>
+              <span className="ml-2 ">Password</span>
               <br />
               <input
                 type="password"
                 placeholder="Password"
-                className="w-80 px-3 py-2 border rounded-3xl outline-none"
+                className=" dark:bg-slate-900 dark:text-white w-80 px-3 py-2 border rounded-3xl outline-none"
                 {...register("password", { required: true })}
               />
               <br />
@@ -93,7 +91,7 @@ function Login() {
               <button className="bg-blue-500 text-white  rounded-2xl px-4 py-1 hover:bg-blue-600 duration-200">
                 Login
               </button>
-              <p className=" text-gray-950">
+              <p className="">
                 Dont have account?{" "}
                 <Link
                   to="/signup"

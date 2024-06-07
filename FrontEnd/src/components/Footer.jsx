@@ -2,15 +2,25 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
-    <div>
+    <div className="mt-8">
       <hr />
-      <footer className="footer footer-center p-10 text-base-content rounded dark:bg-slate-900 dark:text-white shadow-lg">
+      <footer className="footer footer-center  p-10 text-base-content rounded dark:bg-slate-900 dark:text-white shadow-lg">
         <nav className="grid grid-flow-col gap-4">
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact Us</a>
-          <a className="link link-hover">Offers</a>
-          <a className="link link-hover">Course</a>
+          <a to="/" className="link link-hover">
+            Home
+          </a>
+          <a href="/aboutus" className="link link-hover">
+            About us
+          </a>
+          <a href="/contactus" className="link link-hover">
+            Contact Us
+          </a>
+          <a href="/#" className="link link-hover">
+            Offers
+          </a>
+          <a href="/course" className="link link-hover">
+            Course
+          </a>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">

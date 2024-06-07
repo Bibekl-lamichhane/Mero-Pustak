@@ -9,16 +9,16 @@ function Cards({ item }) {
             <img src={item.image} alt="books" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-sm md:text-xl">
+            <h2 className="card-title  md:text-xl">
               {item.name}
               <div className="badge badge-warning">{item.category}</div>
             </h2>
-            <p className="hidden md:block">{item.title}</p>
+            <p className="hidden md:block">{item.author}</p>
             <div className="card-actions justify-between">
-              <div className="font-semibold text-base text-orange-600 md:text-3xl">
+              <div className="font-semibold  text-orange-600 md:text-3xl">
                 ${item.price}
               </div>
-              <div className="text-sm text-white cursor-pointer px-2 py-1 rounded-full border-[2px] bg-orange-500 hover:bg-orange-600  duration-200">
+              <div className=" text-white cursor-pointer px-2 py-1 rounded-full border-[2px] bg-orange-500 hover:bg-orange-600  duration-200">
                 Buy Now
               </div>
             </div>

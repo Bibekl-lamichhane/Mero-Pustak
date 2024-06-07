@@ -6,18 +6,21 @@ import Slider from "react-slick";
 import axios from "axios";
 
 import Cards from "./Cards";
-function BestDeal() {
+function Freebook() {
   const [book, setBook] = useState([]);
+
+  const [isLoading, setIsLoading] = useState(true); // Add loading state
+
   useEffect(() => {
     const getBook = async () => {
       try {
         const res = await axios.get("http://localhost:4001/book");
-
         const data = res.data.filter((data) => data.category === "Sale");
-        console.log(data);
         setBook(data);
       } catch (error) {
         console.log(error);
+      } finally {
+        setIsLoading(false); // Set loading state to false after data is fetched (or on error)
       }
     };
     getBook();
@@ -61,18 +64,21 @@ function BestDeal() {
     <>
       <div className=" max-w-screen-2xl container mx-auto my-2 md:my-16 ">
         <div className="font-semibold  text-xl text-center mx-4  md:text-3xl md:my-6 ">
-          At Best Price
+          Highly Recommended Books
         </div>
-
-        <div>
-          <Slider {...settings}>
-            {book.map((item) => (
-              <Cards item={item} key={item.id} />
-            ))}
-          </Slider>
-        </div>
+        {isLoading ? ( // Show loading state while data is being fetched
+          <div className="text-center">Loading Books...</div>
+        ) : (
+          <div>
+            <Slider {...settings}>
+              {book.map((item) => (
+                <Cards item={item} key={item.id} />
+              ))}
+            </Slider>
+          </div>
+        )}
       </div>
     </>
   );
 }
-export default BestDeal;
+export default Freebook;

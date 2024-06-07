@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Atomic Habits",
-    "title": "Atomic Habits lorem text",
+    "author": "James Clear",
     "price": 600,
     "category": "Hot",
     "image": "/1709358582.jpg"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Harry Potter",
-    "title": "Harry Potter lorem  jsd",
+    "author": "J.K. Rowling",
     "price": 30,
     "category": "Hot",
     "image": "/1709384333.jpg"
@@ -18,39 +18,39 @@
   {
     "id": 3,
     "name": "Rich Dad Poor Dad",
-    "title": " Rich lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "author": "Robert T. Kiyosaki",
     "price": 199,
     "category": "Sale",
     "image": "/1709384558.jpg"
   },
   {
     "id": 4,
-    "name": "Pshychology of Money",
-    "title": "lorem Pshychology shdasjd sjdjad",
+    "name": "Psychology of Money",
+    "author": "Morgan Housel",
     "price": 750,
     "category": "Normal",
     "image": "/1709383896.jpg"
   },
   {
     "id": 5,
-    "name": "The Indoctrainated Brain",
-    "title": "lorem  Indoctrainated  sjd sjdjad",
+    "name": "The Indoctrinated Brain",
+    "author": "Satyajit Das",
     "price": 100,
     "category": "Sale",
     "image": "/1709385164.jpg"
   },
   {
     "id": 6,
-    "name": "Mani's Search For Meaning",
-    "title": "lorem shdasjdjasd j sjd sjdjad",
+    "name": "Man's Search For Meaning",
+    "author": "Viktor E. Frankl",
     "price": 890,
     "category": "Normal",
     "image": "/1709385331.jpg"
   },
   {
     "id": 7,
-    "name": "The Art of Being Alone ",
-    "title": "lorem Modern shdasjdjasd  ",
+    "name": "The Art of Being Alone",
+    "author": "Lane Moore",
     "price": 550,
     "category": "Hot",
     "image": "/1709392884.jpg"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Middlesex",
-    "title": "lorem shdasjdjasd jsdas jdka jsdajda sjd sjdjad",
+    "author": "Jeffrey Eugenides",
     "price": 199,
     "category": "Sale",
     "image": "/1709392446.jpg"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Five Broken Blades",
-    "title": "lorem shdasjdjasd ssjd sjdjad",
+    "author": "Emma Beaven",
     "price": 560,
     "category": "Moderate",
     "image": "/1709393920.jpg"
@@ -74,15 +74,15 @@
   {
     "id": 10,
     "name": "Table for Two",
-    "title": "lorem dssadw jsdas  sjd sjdjad",
+    "author": "Marissa Landrigan",
     "price": 500,
     "category": "Normal",
     "image": "/1709394042.jpg"
   },
   {
     "id": 11,
-    "name": " Annie Bot",
-    "title": "lorem shdasjdjasd sdads  sdsss",
+    "name": "Annie Bot",
+    "author": "Lisa McInerney",
     "price": 810,
     "category": "Normal",
     "image": "/1709394139.jpg"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "name": "Murder Road",
-    "title": "lorem shdasjdv dajda sjd sjdjad",
+    "author": "Tom Fowler",
     "price": 220,
     "category": "Sale",
     "image": "/1709394260.jpg"
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "Daughter Of Mine",
-    "title": "lorem shdasjdjasd",
+    "author": "Fiona Lowe",
     "price": 880,
     "category": "Normal",
     "image": "/1709394394.jpg"

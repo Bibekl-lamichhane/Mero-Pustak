@@ -9,7 +9,7 @@ import BestDeal from "../components/BestDeal";
 
 function Home() {
   return (
-    <>
+    <div>
       <Navbar />
       <Banner />
       <Suscribtion />
@@ -17,7 +17,7 @@ function Home() {
       <OurStory />
       <BestDeal />
       <Footer />
-    </>
+    </div>
   );
 }
 

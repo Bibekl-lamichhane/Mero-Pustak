@@ -40,23 +40,23 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="/course">Course</a>
+        <Link to="/course">Course</Link>
       </li>
       <li>
-        <a href="/contactus">Contact Us </a>
+        <Link to="/contactus">Contact Us </Link>
       </li>
       <li>
-        <a href="/about">About</a>
+        <Link to="/aboutus">About</Link>
       </li>
     </>
   );
   return (
     <>
       <div
-        className={` max-w-screen-2xl  mx-auto md:px-20 px-4 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${
+        className={` max-w-screen-2xl  mx-auto md:px-20  dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${
           sticky
             ? "sticky-navbar shadow-md bg-base-200 dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
             : ""
@@ -179,7 +179,7 @@ const Navbar = () => {
 
                 {/* sun icon */}
                 <svg
-                  className="swap-off fill-current w-7 h-7"
+                  className="swap-off fill-current w-7 h-7 "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -189,7 +189,7 @@ const Navbar = () => {
 
                 {/* moon icon */}
                 <svg
-                  className="swap-on fill-current w-7 h-7"
+                  className="swap-on fill-current w-7 h-7 "
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   onClick={() => setTheme(theme === "light" ? "dark" : "light")}
