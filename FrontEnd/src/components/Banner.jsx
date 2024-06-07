@@ -20,10 +20,10 @@ function Banner() {
             Learn More
           </button>
         </div>
-        <div className=" order-1 w-full mt-20  ml-40 md:w-1/2">
+        <div className="flex order-1 w-full mt-20  md:w-1/2">
           <img
             src="/women pic.png"
-            className=" w-[350px] h-[380px] md:w-[420px] md:h-[460px] md:ml-"
+            className=" w-[350px] h-[380px] md:w-[420px] md:h-[460px] items-center "
             alt=""
           />
         </div>

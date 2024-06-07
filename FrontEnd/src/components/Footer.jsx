@@ -10,7 +10,6 @@ function Footer() {
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact Us</a>
           <a className="link link-hover">Offers</a>
-          <a className="link link-hover">Story</a>
           <a className="link link-hover">Course</a>
         </nav>
         <nav>

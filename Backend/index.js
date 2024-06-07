@@ -7,13 +7,13 @@ import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 
 const app = express();
-
+//middleware
 app.use(cors());
 app.use(express.json());
 
 dotenv.config();
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 const URI = process.env.MongoDB_URI;
 
 // connect to mongoDB

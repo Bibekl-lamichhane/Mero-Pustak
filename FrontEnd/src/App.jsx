@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { useAuth } from "./context/AuthProvider";
 import ContactUs from "./contactus/ContactUs";
 import Courses from "./courses/Courses";
+
 function App() {
   const [authUser, setAuthUser] = useAuth();
   console.log(authUser);
